@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2015"],
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "composite": true,
+    "types": ["node", "@wdio/globals/types", "expect-webdriverio", "@wdio/cucumber-framework"],
+    "forceConsistentCasingInFileNames": true,
+    "target": "es2022"
+  },
+  "references": [{ "path": "../utilities" }]
+}

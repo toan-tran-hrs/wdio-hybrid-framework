@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "composite": true,
+    "types": ["node", "@wdio/globals/types"],
+    "outDir": "dist",
+    "rootDir": ".",
+    "target": "es2022",
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["./src"]
+}

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "alexkrechik.cucumberautocomplete",
+    "loiane.ts-extension-pack",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}

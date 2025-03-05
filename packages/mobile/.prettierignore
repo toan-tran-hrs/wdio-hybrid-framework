@@ -1,0 +1,17 @@
+node_modules
+.yarn
+*.lock
+logs
+reports
+allure-report
+env
+aut
+README.md
+.eslintignore
+.gitignore
+.prettierignore
+scripts/filter-expression
+*.ps1
+test/**/*.xml
+*.csv
+*.pkr

@@ -1,0 +1,16 @@
+node_modules
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+logs
+reports
+allure-report
+env/my*
+filter-expression
+selenium
+*DS_STORE
+avd
+allure-results
