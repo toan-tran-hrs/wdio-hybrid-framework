@@ -17,7 +17,7 @@
     "compile:utilities": "yarn workspace utilities compile",
     "prettier:utilities": "yarn workspace utilities prettier:write",
     "lint:utilities": "yarn workspace utilities lint",
-    "allure:generate": "allure generate reports/allure-results --clean -o reports/allure-report"
+    "allure:generate": "allure generate reports/allure-results --single-file --clean -o reports/allure-report"
   },
   "license": "UNLICENSED",
   "devDependencies": {

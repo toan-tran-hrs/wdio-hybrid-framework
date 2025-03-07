@@ -45,7 +45,7 @@
     "lint": "eslint ./src ./test ./config",
     "prettier:write": "prettier --write .",
     "prettier:check": "prettier --check .",
-    "allure:generate": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report",
+    "allure:generate": "allure generate reports/allure-results --single-file --clean -o reports/allure-report && allure open reports/allure-report",
     "healthcheck:ci": "node ./healthcheck-execute.js"
   }
 }
